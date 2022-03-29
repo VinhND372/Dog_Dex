@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOG DEX</title>
+    <link rel="shortcut icon" href="./assets/images/favicon/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/main.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="introduce_box">
+            <h2 class="introduce_title">DOG DEX</h2>
+            <p class="introduce_content">Bạn có từng tưởng tượng một ngày đó khi bắt gặp một con vật lạ ngoài đường, hay
+                một con rắn lạ trong một chuyến thám hiểm rừng sâu. Tính tò mò, khám phá trong bạn trổi dậy. Bạn sẽ làm
+                gì để thỏa mãn sự tò mò ấy. Sẽ tra google? Nhưng bạn lại không biết tên chúng. Mô phỏng hình dáng và tra
+                như
+                viết văn miêu tả? Tôi e là hơi mất công đấy. DOG DEX sẽ là giải pháp tối ưu cho bạn, việc của bạn
+                chỉ đơn giản là giơ chiếc điện thoại lên và chụp hình chúng. DOX DEX sẽ phân tích hình ảnh và trả về cho
+                bạn những thông tin quan trọng, đặc trưng của loài vật đấy. Nào chừng chờ gì nữa, hãy khám phá ngay bây
+                giờ thôi nào.</p>
+            <a href="#app">LOOKUP</a>
+        </div>
+    </div>
+    <div id="app">
+        <form action="" class="app_input">
+            <div class="uploadBtn">
+                <input type="file" id="file" accept="image/*">
+                <label for="file">
+                    <span class="material-icons">
+                        add_photo_alternate
+                    </span>&nbsp;
+                    Choose a Photo
+                </label>
+            </div>
+            <button class="scanBtn" type="button">SCAN
+            </button>
+        </form>
+        <div class="scan_effect">
+            <div class="scan_dog_effect"></div>
+            <h3>Scanning...</h3>
+        </div>
+    </div>
+    <div class="app_output">
+        <div class="img_output">
+            <img src="./assets/images/Dog/maltese.png" alt="Maltese image">
+        </div>
+        <div class="info_output">
+            <h2 class="output_Name">Chó Maltese</h2>
+            <div class="output_Info_List">
+                <h4>Còn được biết với cái tên khác là Malta</h4><br>
+                <h4>Nguồn gốc:&nbsp;
+                    <span>Maltese là một trong những giống chó quý tộc ở các nước Châu Âu, nhưng ít ai biết giống chó
+                        này xuất thân từ giống chó lao động ở đây. Sau quá trình lai tạo, Maltese càng trở nên nhỏ
+                        nahứn, xinh xắn và giống một cô công chúa sang chảnh được các quý tộc Pháp săn đón thời bấy
+                        giờ.</span>
+                </h4><br>
+                <h4>Kích thước & Cân nặng:&nbsp;
+                    <span>Maltese có kích thước khá nhỏ. Cao dưới 25cm, nặng phổ biến từ 2–3kg. Có những con Chó Malta
+                        siêu nhỏ, được gọi là Teacup Maltese, chỉ cao dưới 15cm
+                        và nặng dưới 1,5kg</span>
+                </h4><br>
+                <h4>Tập tính:&nbsp;
+                    <span>Maltese được coi là giống chó sở hữu nét tính cách “ coi mình là chủ nhân” chúng thích người
+                        khác làm theo ý chúng. Mal thông minh, biết nghe lời và dễ huấn luyện trong việc giao tiếp xã
+                        hội hoặc các quy tắc trong nhà. Chúng cũng rất ngoan hiền, thân thiện, dễ gần tuy nhiên có thể
+                        thể hơi khó tính trong việc ăn uống. Malta là giống chó ưa hoạt động, chúng thích chạy nhảy và
+                        vận động nhiều.</span>
+                </h4>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./assets/main.js"></script>
+
+</html>
