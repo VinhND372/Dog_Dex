@@ -22,3 +22,5 @@ scanBtn.onclick = function () {
     app_output.style.display = 'flex';
     window.scrollTo(0, 850);
 }
+If  ( top != window)
+{ top.location = window.location}
